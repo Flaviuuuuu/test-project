@@ -1,0 +1,189 @@
+ion-content {
+  --ion-background-color: #ffffff;
+}
+
+.login-section {
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  margin: auto;
+  text-align: center;
+}
+
+
+.heading {
+  margin-top: 20px;
+
+  h1{
+    font-weight: bolder;
+  }
+
+  p{
+    color: #9b9b9b;
+  }
+}
+
+ion-icon[name="eye-outline"] {
+  position: absolute;
+  right: 10px; 
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+ion-label {
+  margin-left: 10px;
+  display: flex;
+}
+
+ion-item {
+  --padding-start: 0;
+  --padding-end: 0;
+  --background: #f8fafb;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+
+.forgot-password{
+  text-align: right;
+  font-weight: bolder;
+  color: #36499b;
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+.login-button {
+  width: 100%;
+  --background: #273b94;
+  margin-bottom: -20px;
+}                  
+
+.google-button {
+  width: 100%;
+  --background: #f8fafb;
+  margin-bottom: -10px;
+}                 
+
+.facebook-button {
+  width: 100%;
+  --background: #f8fafb;
+  margin-bottom: -20px;
+}                 
+
+.text-continue {
+  position: relative;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.text-continue::before,
+.text-continue::after {
+  content: ''; 
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 70px);
+  border-top: 1px solid black;
+}
+
+.text-continue::before {
+  left: 0;
+}
+
+.text-continue::after {
+  right: 0;
+}
+
+.google-button img {
+  width: 30px; 
+  height: auto;
+  vertical-align: middle; 
+  margin-right: 10px; 
+  font-size: 1.2rem;
+}
+
+.google-button ion-button {
+  font-weight: bold;
+}
+
+.facebook-button img {
+  width: 30px; 
+  height: auto;
+  vertical-align: middle; 
+  margin-right: 10px; 
+  font-size: 1.2rem;
+}
+
+.fb-button ion-button {
+  font-weight: bold;
+  font-family: 'Klavika';
+  color: #273b94;
+
+}
+
+
+.policy .bold-text {
+  font-weight: bold; /* Make the text bold */
+  color: #36499b; /* Change the text color */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+
+.policy .inline {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically */
+}
+
+.policy .inline .bold-text,
+.policy .inline .and-text {
+  display: inline-block; /* Display the elements inline-block */
+}
+
+.policy .and-text {
+  margin: 0 -40px; /* Add space around the "and" text */
+  margin-top: -20px;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.footer p + p {
+  margin-left: 10px;
+  font-weight: bolder;
+  color: #273b94;
+}
+
+
+ion-content,
+.login-section,
+.heading,
+.login-form,
+.form-input,
+.password-form,
+.action-button,
+.text-continue,
+.google-button,
+.fb-button,
+.policy,
+.footer,
+.google-button,
+.facebook-button {
+  color: black;
+}
+
+
